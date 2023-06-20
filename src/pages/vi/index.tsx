@@ -4,19 +4,19 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
-import BlockGallery from "@/components/block-gallery";
+// import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
 import qrcode from '@/img/qrcode.svg';
-import s1 from '@/public/imgs/madelab/s-1.png';
-import s2 from '@/public/imgs/madelab/s-2.png';
-import s3 from '@/public/imgs/madelab/s-3.png';
-import s4 from '@/public/imgs/madelab/s-4.png';
-import s5 from '@/public/imgs/madelab/s-5.png';
-import s6 from '@/public/imgs/madelab/s-6.png';
-import s7 from '@/public/imgs/madelab/s-7.png';
-import roq from '@/public/imgs/madelab/roq.png';
+// import s1 from '@/public/imgs/madelab/s-1.png';
+// import s2 from '@/public/imgs/madelab/s-2.png';
+// import s3 from '@/public/imgs/madelab/s-3.png';
+// import s4 from '@/public/imgs/madelab/s-4.png';
+// import s5 from '@/public/imgs/madelab/s-5.png';
+// import s6 from '@/public/imgs/madelab/s-6.png';
+// import s7 from '@/public/imgs/madelab/s-7.png';
+// import roq from '@/public/imgs/madelab/roq.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
@@ -52,7 +52,7 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="mailto:hello@lessGAP.com"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
+										className="!my-4 !text-lg border-none font-black uppercase text-white hover:opacity-50 md:text-4xl"
 									>
 										hello@lessGAP.com
 									</Link>
