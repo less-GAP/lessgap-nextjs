@@ -1132,3 +1132,50 @@ body .is-layout-flex>* {
 		}
 	}
 }
+
+@font-face {
+	font-family: 'TT-Travels';
+	src: url(../webfonts/tt_travels_next_thin-webfont.woff2) format("woff2"), url(../webfonts/tt_travels_next_thin-webfont.woff) format("woff");
+	font-weight: 100;
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'TT-Travels';
+	src: url(../webfonts/tt_travels_next_regular-webfont.woff2) format("woff2"), url(../webfonts/tt_travels_next_regular-webfont.woff) format("woff");
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'TT-Travels';
+	src: url(../webfonts/tt_travels_next_medium-webfont.woff2) format("woff2"), url(../webfonts/tt_travels_next_medium-webfont.woff) format("woff");
+	font-weight: 500;
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'TT-Hoves';
+	src: url(../webfonts/TTHoves-Light.woff2) format("woff2"), url(../webfonts/TTHoves-Light.woff) format("woff");
+	font-weight: 300;
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'TT-Hoves';
+	src: url(../webfonts/TTHoves-Regular.woff2) format("woff2"), url(../webfonts/TTHoves-Regular.woff) format("woff");
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'TT-Hoves';
+	src: url(../webfonts/TTHoves-Medium.woff2) format("woff2"), url(../webfonts/TTHoves-Medium.woff) format("woff");
+	font-weight: 500;
+	font-display: swap
+}
+
+html,
+body {
+	font-family: 'TT-Travels', monospace;
+}
