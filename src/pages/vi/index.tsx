@@ -139,7 +139,7 @@ export default function TrainingSupport() {
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_2}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] 5xl:!w-1/3 !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
 													less [GAP]
@@ -156,7 +156,7 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
-												<div className="text-4xl sm:text-6xl lg:text-8xl 2xl:text-10xl 6xl:text-[11rem] 9xl:text-[13rem] 13xl:text-[15rem] leading-[1.1] mb-5">
+												<div className="text-4xl sm:text-6xl lg:text-8xl 2xl:text-10xl 6xl:text-[11rem] 9xl:text-[13rem] 13xl:text-[15rem] leading-[1.1] mb-15">
 													Less the [GAP]
 												</div>
 												<ul className="text-lg my-2 space-y-5 md:text-3xl xl:text-5xl xl:mb-10 tracking-[0.05em]">
@@ -217,7 +217,7 @@ export default function TrainingSupport() {
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_9}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
 													Không có sản phẩm
@@ -234,7 +234,7 @@ export default function TrainingSupport() {
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_10}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
 													Sức mạnh
