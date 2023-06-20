@@ -4,19 +4,19 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
-// import BlockGallery from "@/components/block-gallery";
+import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
 import qrcode from '@/img/qrcode.svg';
-// import s1 from '@/public/imgs/madelab/s-1.png';
-// import s2 from '@/public/imgs/madelab/s-2.png';
-// import s3 from '@/public/imgs/madelab/s-3.png';
-// import s4 from '@/public/imgs/madelab/s-4.png';
-// import s5 from '@/public/imgs/madelab/s-5.png';
-// import s6 from '@/public/imgs/madelab/s-6.png';
-// import s7 from '@/public/imgs/madelab/s-7.png';
-// import roq from '@/public/imgs/madelab/roq.png';
+import s1 from '@/public/imgs/madelab/s-1.png';
+import s2 from '@/public/imgs/madelab/s-2.png';
+import s3 from '@/public/imgs/madelab/s-3.png';
+import s4 from '@/public/imgs/madelab/s-4.png';
+import s5 from '@/public/imgs/madelab/s-5.png';
+import s6 from '@/public/imgs/madelab/s-6.png';
+import s7 from '@/public/imgs/madelab/s-7.png';
+import roq from '@/public/imgs/madelab/roq.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
@@ -250,7 +250,7 @@ export default function TrainingSupport() {
 										</div>
 									</div>
 
-									{/* <div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
+									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
@@ -328,11 +328,11 @@ export default function TrainingSupport() {
 														Chúng tôi đã xây dựng nhiều hệ thống lớn như: Hệ thống quản lý y tế, hệ thống quản lý kho hàng, hệ thống quản lý thương hiệu, hệ thống quản lý sự kiện, hệ thống quản lý toàn soạn... Chúng tôi luôn áp dụng những công nghệ tiên tiến, hợp thời đại, và hiểu chính xác những gì quý vị cần.
 													</div>
 													<BlockGallery />
-													
+
 												</div>
 											</div>
 										</div>
-									</div> */}
+									</div>
 								</Carousel>
 							</div>
 
