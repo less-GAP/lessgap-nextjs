@@ -60,6 +60,14 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Image src={qrcode} alt="less[GAP]" className="w-full max-w-[250px]" />
 								</li>
+								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
+									<Link
+										href="/vi"
+										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
+									>
+										Tiếng Việt
+									</Link>
+								</li>
 
 							</ul>
 						</div>
@@ -83,12 +91,6 @@ export default function TrainingSupport() {
 							<h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110 ${styles.animation}`}>
 								<Image src={logo2} alt="less[GAP]" className="w-full max-w-[250px] md:max-w-[350px]" />
 							</h2>
-							{/* <h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110 ${styles.animation}`}>
-								<span>Less</span>
-								<span className="text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-light px-2 lg:px-3 xl:px-5"> x </span>
-								<span>More</span>
-							</h2> */}
-
 
 							<div className={`${styles.animation_logo}`}>
 								<Image src={logo} alt="less[GAP]" />
@@ -153,17 +155,6 @@ export default function TrainingSupport() {
 										</div>
 
 									</div>
-									{/* <div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_3}`}>
-										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
-
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Less is<br />more
-												</div>
-
-											</div>
-										</div>
-									</div> */}
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_4}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
@@ -262,7 +253,7 @@ export default function TrainingSupport() {
 										</div>
 									</div>
 
-									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
+									{/* <div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
@@ -338,15 +329,10 @@ export default function TrainingSupport() {
 												<div className="flex flex-col w-full gap-10">
 													<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">We have built many customized large-scale systems such as healthcare management systems, inventory management systems, brand management systems, event management systems, automation systems, etcetera. We strive to apply the most advanced and newest technologies to the making of any projects with a precise understanding of what your brand needs.</div>
 													<BlockGallery />
-													{/* <h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110`}>
-														<span>Training</span>
-														<span className="text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-light px-2 lg:px-3 xl:px-5"> x </span>
-														<span>Support</span>
-													</h2> */}
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</Carousel>
 							</div>
 
