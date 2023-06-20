@@ -210,54 +210,6 @@
 	margin: 0 1rem;
 }
 
-.animation_carousel_item_slider_1 {
-	background-image: url('/imgs/madelab/001.jpeg');
-}
-
-.animation_carousel_item_slider_2 {
-	background-image: url('/imgs/madelab/002.jpeg');
-}
-
-.animation_carousel_item_slider_3 {
-	background-image: url('/imgs/madelab/003.jpeg');
-}
-
-.animation_carousel_item_slider_4 {
-	background-image: url('/imgs/madelab/004.jpeg');
-}
-
-.animation_carousel_item_slider_5 {
-	background-image: url('/imgs/madelab/005.jpeg');
-}
-
-.animation_carousel_item_slider_6 {
-	background-image: url('/imgs/madelab/006.jpeg');
-}
-
-.animation_carousel_item_slider_7 {
-	background-image: url('/imgs/madelab/007.jpeg');
-}
-
-.animation_carousel_item_slider_8 {
-	background-image: url('/imgs/madelab/008.jpeg');
-}
-
-.animation_carousel_item_slider_9 {
-	background-image: url('/imgs/madelab/009.jpeg');
-}
-
-.animation_carousel_item_slider_10 {
-	background-image: url('/imgs/madelab/010.jpeg');
-}
-
-.animation_carousel_item_slider_11 {
-	background-image: url('/imgs/madelab/012.jpeg');
-}
-
-.animation_carousel_item_slider_12 {
-	background-image: url('/imgs/madelab/013.jpeg');
-}
-
 /* Media Queries */
 
 @media screen and (min-width: 389px) and (max-width: 767px) {

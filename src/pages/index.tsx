@@ -63,8 +63,18 @@ export default function TrainingSupport() {
 
 							</ul>
 						</div>
-
 					</div>
+					<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
+						__html: `
+						<video
+							loop
+							muted
+							autoplay
+							playsinline
+							src="/data/video.mp4"
+							class="w-full h-full object-cover"
+						/>
+					` }} />
 				</div>
 
 				<div className="px-3 py-9 lg:py-12 h-screen items-center flex flex-col justify-center">
@@ -98,6 +108,18 @@ export default function TrainingSupport() {
 								</div>
 							</div>
 
+							<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
+								__html: `
+								<video
+									loop
+									muted
+									autoplay
+									playsinline
+									src="/data/video2.mp4"
+									class="w-full h-full object-cover"
+								/>
+							` }} />
+
 							{/* Carousel */}
 							<div className={`${styles.animation_carousel}`}>
 								<Carousel arrows={true} dots={false} className="madePrevNextBtn"
@@ -115,19 +137,6 @@ export default function TrainingSupport() {
 											</div>
 										</div>
 
-										<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
-											__html: `
-											<video
-												loop
-												muted
-												autoplay
-												playsinline
-												src="/data/video.mp4"
-												class="w-full h-full object-cover"
-											/>
-										` }} />
-
-
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_2}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
@@ -142,17 +151,7 @@ export default function TrainingSupport() {
 
 											</div>
 										</div>
-										<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
-											__html: `
-											<video
-												loop
-												muted
-												autoplay
-												playsinline
-												src="/data/video2.mp4"
-												class="w-full h-full object-cover"
-											/>
-										` }} />
+
 									</div>
 									{/* <div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_3}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
