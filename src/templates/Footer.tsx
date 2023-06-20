@@ -18,7 +18,7 @@ import { AppConfig } from "@/utils/AppConfig";
 library.add(fab, faFacebookF, faInstagram);
 
 const MadeFooter = () => (
-  <MadeLabFooter className="made-lab-footer mt-auto bg-black py-12 px-3 lg:px-10 text-white">
+  <MadeLabFooter className="lessgap-lab-footer mt-auto bg-black py-12 px-3 lg:px-10 text-white">
     <div className="container mx-auto">
       <div className="flex flex-col lg:flex-row">
         <div className="mb-12 basis-1/3 text-center lg:mb-0 lg:text-left">

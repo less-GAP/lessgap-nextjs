@@ -34,7 +34,7 @@ function closeMenu() {
 }
 
 const MadeHeader = () => (
-  <MadeLabHeader className="made-lab-header bg-black text-white">
+  <MadeLabHeader className="lessgap-lab-header bg-black text-white">
     <div className="container-fluid mx-auto p-3 md:py-5 lg:py-8 lg:px-10" id="headerblock">
       <div className="flex flex-row items-center">
         <div className="mr-auto flex basis-1/4 flex-row items-center">

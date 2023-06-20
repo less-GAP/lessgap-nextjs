@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function PageError() {
 	return (
 		<>
-			<Meta title="404" description="less[GAP]oratory continually draws and delivers new audiences to create a global network of connected best-in-class apparel decorators, manufacturers, graphic designers, and brand influencers." />
+			<Meta title="404" description="less[GAP] Solutions continually draws and delivers new audiences to create a global network of connected best-in-class apparel decorators, manufacturers, graphic designers, and brand influencers." />
 			<MainOnly
 				className="pageerror"
 			>

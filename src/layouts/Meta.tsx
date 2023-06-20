@@ -51,11 +51,11 @@ const Meta = (props: IMetaProps) => {
       </Head>
       <Script src="https://connect.facebook.net/en_US/sdk.js"></Script>
       <NextSeo
-        title={`${props.title} | less[GAP]oratory`}
+        title={`${props.title} | less[GAP] Solutions`}
         description={props.description}
         canonical={props.canonical}
         openGraph={{
-          title: `${props.title} | less[GAP]oratory`,
+          title: `${props.title} | less[GAP] Solutions`,
           description: props.description,
           url: props.canonical,
           locale: AppConfig.locale,

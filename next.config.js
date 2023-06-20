@@ -26,50 +26,17 @@ module.exports = withBundleAnalyzer({
   // },
   async rewrites() {
     return [{
-        source: '/classes',
-        destination: '/events',
-      },
-      {
-        source: '/event/embroidery-102',
-        destination: '/event/Embroidery102AdvanceYourStitch',
-      },
-      {
-        source: '/event/screen-printing-101',
-        destination: '/event/ScreenPrinting101',
-      },
-      {
-        source: '/event/learn-to-roq-intro-to-automation-workshop',
-        destination: '/event/LearntoROQ-IntrotoAutomationWorkshop1',
-      },
-      {
-        source: '/event/screen-makin-workshop',
-        destination: '/event/ScreenMakinWorkshop',
-      },
-      {
-        source: '/event/made-to-roq-advanced-automation-workshop',
-        destination: '/event/MADEtoROQ-AdvancedAutomationWorkshop1',
-      },
-      {
-        source: '/event/made-to-roq-advanced-printing-automation-workshop',
-        destination: '/event/MADEToROQAdvancedPrintingAutomationWorkshop',
-      },
-      {
-        source: '/event/roq-grand-opening-of-1907',
-        destination: '/event/ROQGrandOpeningof1907',
-      },
-      {
-        source: '/event/stampinator-studio-make-your-prints-betterand-automate-your-transfers',
-        destination: '/event/StampinatorStudioMakeYourPrintsBetterandAutomateYourTransfers',
-      },
-    ]
+      source: '/classes',
+      destination: '/events',
+    }, ]
   },
   images: {
-    domains: ['cdn.madelaboratory.net',
+    domains: ['cdn.lessgap.com',
       'events.lessgap.com'
     ],
     remotePatterns: [{
       protocol: 'https',
-      hostname: '**.madelaboratory.net,**.lessgap.com'
+      hostname: '**.lessgap.com,**.lessgap.com'
     }, ],
   },
 });

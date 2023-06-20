@@ -1,4 +1,3 @@
-// import { Turnstile } from '@marsidev/react-turnstile'
 import { Meta } from "@/layouts/Meta";
 import { MainOnly } from "@/templates/MainOnly";
 import { Carousel, Modal } from 'antd';
@@ -13,8 +12,8 @@ import s3 from '@/public/imgs/madelab/s-3.png';
 import s4 from '@/public/imgs/madelab/s-4.png';
 import s5 from '@/public/imgs/madelab/s-5.png';
 import s6 from '@/public/imgs/madelab/s-6.png';
-// import s7 from '@/public/imgs/madelab/s-7.png';
-// import roq from '@/public/imgs/madelab/roq.png';
+import s7 from '@/public/imgs/madelab/s-7.png';
+import roq from '@/public/imgs/madelab/roq.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
@@ -129,13 +128,13 @@ export default function TrainingSupport() {
 							</h2>
 
 							<div className={`${styles.animation_logo}`}>
-								<Image src={logo} alt="MADE Logo" />
+								<Image src={logo} alt="less[GAP]" />
 							</div>
 
 							<div className={`${styles.animation_footer}`}>
 								<div className={`${styles.animation_footer_line}`}></div>
 								<div className="pt-2 md:pt-3 lg:pt-4 xl:pt-5 flex justify-between items-center">
-									<div className={`${styles.animation_copyright}`}>© 2023 less[GAP]oratory</div>
+									<div className={`${styles.animation_copyright}`}>© 2023 less[GAP] Solutions</div>
 									<div className={`${styles.animation_copyright_right}`}>
 										<div className="flex flex-row items-center">
 											<span>Training</span>
@@ -363,7 +362,7 @@ export default function TrainingSupport() {
 														<ul className="hidden ml-10 text-sm 2xl:texr-basic 8xl:text-lg font-normal capitalize mt-5 tracking-[0.05em] leading-normal space-y-1">
 															<li>Advanced Training for Established Decorators </li>
 															<li>Extended Training for Large Teams</li>
-															<li>In-house Training at less[GAP]oratory </li>
+															<li>In-house Training at less[GAP] Solutions </li>
 															<li>Project Consulting</li>
 															<li>Investment: TBD Based on Scope of Work</li>
 														</ul>
@@ -371,22 +370,22 @@ export default function TrainingSupport() {
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
 														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s1} alt="MADE Logo" className="w-full" />
+																<Image src={s1} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s2} alt="MADE Logo" className="w-full" />
+																<Image src={s2} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s3} alt="MADE Logo" className="w-full" />
+																<Image src={s3} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s4} alt="MADE Logo" className="w-full" />
+																<Image src={s4} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s5} alt="MADE Logo" className="w-full" />
+																<Image src={s5} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
-																<Image src={s6} alt="MADE Logo" className="w-full" />
+																<Image src={s6} alt="less[GAP]" className="w-full" />
 															</div>
 														</div>
 													</div>
@@ -394,14 +393,14 @@ export default function TrainingSupport() {
 											</div>
 										</div>
 									</div>
-									{/* <div className={`${styles.animation_carousel_item} w-full`}>
+									<div className={`${styles.animation_carousel_item} w-full`}>
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col xl:flex-row w-full gap-10">
 													<div className="basic w-full xl:w-[50%]">
 
 														<div className="mb-10 lg:mb-25">
-															<Image src={roq} alt="MADE Logo" className="w-full max-w-[300px]" />
+															<Image src={roq} alt="less[GAP]" className="w-full max-w-[300px]" />
 														</div>
 														<ul className="text-2xl my-2 space-y-3 md:text-3xl xl:mb-10 leading-normal max-w-[600px]">
 															<li>Our trainers are ROQ certified for competency on operation, installations, maintenance, and repairs.</li>
@@ -410,14 +409,14 @@ export default function TrainingSupport() {
 													<div className="basic w-full xl:w-[50%]">
 														<div className="w-full !gap-3 grid grid-cols-1">
 															<div className="col-span-1">
-																<Image src={s7} alt="MADE Logo" className="w-full" />
+																<Image src={s7} alt="less[GAP]" className="w-full" />
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div> */}
+									</div>
 									<div className={`${styles.animation_carousel_item} w-full`}>
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
