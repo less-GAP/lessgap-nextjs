@@ -132,7 +132,7 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text}`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[5rem]`}>
 
-												<div className="text-4xl sm:text-5xl xl:text-6xl 4xl:text-7xl 5xl:text-8xl 6xl:text-9xl 9xl:text-[8rem] 12xl:text-[9rem] tracking-[0.05em] leading-[1.2]">
+												<div className="text-4xl sm:text-5xl xl:text-6xl 4xl:text-7xl 5xl:text-7xl 6xl:text-8xl 9xl:text-[8rem] 12xl:text-[9rem] tracking-[0.05em] leading-[1.2]">
 													We provide web design and development services for small and medium businesses.
 												</div>
 
