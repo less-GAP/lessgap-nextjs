@@ -6,7 +6,7 @@ import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-so
 import Image from 'next/image'
 import BlockGallery from "@/components/block-gallery";
 
-import logo from '@/img/made.svg';
+import logo from '@/img/logow.png';
 import s1 from '@/public/imgs/madelab/s-1.png';
 import s2 from '@/public/imgs/madelab/s-2.png';
 import s3 from '@/public/imgs/madelab/s-3.png';
