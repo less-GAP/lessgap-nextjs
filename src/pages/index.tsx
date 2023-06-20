@@ -8,6 +8,7 @@ import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
+import qrcode from '@/img/qrcode.svg';
 import s1 from '@/public/imgs/madelab/s-1.png';
 import s2 from '@/public/imgs/madelab/s-2.png';
 import s3 from '@/public/imgs/madelab/s-3.png';
@@ -50,70 +51,16 @@ export default function TrainingSupport() {
 							<ul className="text-xl flex flex-col items-center space-y-3 justify-center">
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
-										href="/about"
+										href="mailto:hello@lessGAP.com"
 										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
 									>
-										About
+										hello@lessGAP.com
 									</Link>
 								</li>
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/facility"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Facility
-									</Link>
+									<Image src={qrcode} alt="less[GAP]" className="w-full max-w-[250px]" />
 								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/capabilities"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Capabilities
-									</Link>
-								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/contact"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Contact
-									</Link>
-								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/partners"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Partners
-									</Link>
-								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/ts"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl flex flex-row items-center justify-center"
-									>
-										<span>TRAINING</span>
-										<span className="text-sm px-2"> x </span>
-										<span>SUPPORT</span>
-									</Link>
-								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/events"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Events
-									</Link>
-								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
-									<Link
-										href="/blogs"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
-									>
-										Blog
-									</Link>
-								</li>
+
 							</ul>
 						</div>
 
@@ -161,19 +108,33 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text}`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[5rem]`}>
 
-												<div className="text-4xl sm:text-6xl xl:text-7xl 4xl:text-8xl 5xl:text-9xl 6xl:text-10xl 9xl:text-[10rem] 12xl:text-[11rem] tracking-[0.05em] leading-[1.2]">
+												<div className="text-4xl sm:text-5xl xl:text-6xl 4xl:text-7xl 5xl:text-8xl 6xl:text-9xl 9xl:text-[8rem] 12xl:text-[9rem] tracking-[0.05em] leading-[1.2]">
 													We provide web design and development services for small and medium businesses.
 												</div>
 
 											</div>
 										</div>
+
+										<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
+											__html: `
+											<video
+												loop
+												muted
+												autoplay
+												playsinline
+												src="/data/video.mp4"
+												class="w-full h-full object-cover"
+											/>
+										` }} />
+
+
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_2}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] 5xl:!w-1/3 !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
-												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
-													less[GAP]
+												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
+													less [GAP]
 												</div>
 												<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
 													“<strong>LessGAP</strong> is a professional agency specializing in creating cross-platform programming, building and launching social media contents, strategizing for brand innovation, and customizing system development, etcetera. With our offices being in both North America and Vietnam, our team of capable experts in the industry are at hand to fully provide solutions for all of your needs.”
@@ -181,6 +142,17 @@ export default function TrainingSupport() {
 
 											</div>
 										</div>
+										<div className="absolute top-0 left-0 z-[-1] h-full w-full object-cover" dangerouslySetInnerHTML={{
+											__html: `
+											<video
+												loop
+												muted
+												autoplay
+												playsinline
+												src="/data/video2.mp4"
+												class="w-full h-full object-cover"
+											/>
+										` }} />
 									</div>
 									{/* <div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_3}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
@@ -197,7 +169,7 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] leading-[1.1] mb-5">
+												<div className="text-4xl sm:text-6xl lg:text-8xl 2xl:text-10xl 6xl:text-[11rem] 9xl:text-[13rem] 13xl:text-[15rem] leading-[1.1] mb-5">
 													Less the [GAP]
 												</div>
 												<ul className="text-lg my-2 space-y-5 md:text-3xl xl:text-5xl xl:mb-10 tracking-[0.05em]">
@@ -260,7 +232,7 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
-												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
+												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
 													No products
 												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
@@ -277,7 +249,7 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
-												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
+												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
 													Powerful
 												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">

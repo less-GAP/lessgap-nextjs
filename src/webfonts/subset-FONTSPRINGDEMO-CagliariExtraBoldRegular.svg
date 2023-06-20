@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Wed Jun 21 00:27:14 2023
+ By Aleksey,,,
+Copyright  2016 by Jorge Cisterna. All rights reserved.
+</metadata>
+<defs>
+<font id="FONTSPRINGDEMO-CagliariExtraBoldRegular" horiz-adv-x="1224" >
+  <font-face 
+    font-family="FSP DEMO - Cagliari ExtraBold"
+    font-weight="800"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="0 0 9 0 0 0 0 0 0 0"
+    ascent="1638"
+    descent="-410"
+    bbox="129 150 1098 1252.54"
+    underline-thickness="102"
+    underline-position="-307"
+    unicode-range="U+0020-0020"
+  />
+<missing-glyph 
+d="M207 403q-13 0 -19 -2v-200q4 -2 19 -2q37 0 50 25t13 77q0 54 -13 78t-50 24zM518 330v-49h-82v-78h96v-49h-155v297h155v-52h-96v-69h82zM203 150q-47 0 -74 4v292q61 9 76 9q67 0 96 -37.5t29 -116.5t-29.5 -115t-97.5 -36zM586 451h80l39 -164l38 164h82
+q3 -45 13 -297h-60q0 108 -6 213l-41 -168h-55l-41 168h-2q-4 -140 -4 -213h-58q3 156 15 297zM987 150q-60 0 -84 35.5t-24 115.5q0 81 24 117.5t84 36.5t85.5 -37t25.5 -117q0 -79 -25.5 -115t-85.5 -36zM987 403q-29 0 -39 -23.5t-10 -78.5q0 -54 10 -78t39 -24
+q30 0 40.5 24t10.5 78q0 55 -10 78.5t-41 23.5zM967 1016q49 0 79.5 -24.5t39 -51t8.5 -53.5q0 -43 -34.5 -72.5t-72.5 -34.5q-213 -23 -340 -147q3 8 9 22t25 53.5t39 75.5t50 80.5t59.5 76t66 53.5t71.5 22zM285 909q39 0 78 -21t69.5 -55t58.5 -74.5t48 -81.5t35 -75
+t22 -55l8 -21q-117 148 -319 148q-49 0 -88 30t-39 76q0 53 33.5 91t93.5 38zM643 1214q38 -37 48.5 -102t-2.5 -131t-31.5 -126.5t-35.5 -98.5l-18 -39q20 191 -125 330q-35 35 -42 81.5t24 83.5q23 23 53 34t65 3.5t64 -35.5z" />
+    <glyph glyph-name=".notdef" 
+d="M207 403q-13 0 -19 -2v-200q4 -2 19 -2q37 0 50 25t13 77q0 54 -13 78t-50 24zM518 330v-49h-82v-78h96v-49h-155v297h155v-52h-96v-69h82zM203 150q-47 0 -74 4v292q61 9 76 9q67 0 96 -37.5t29 -116.5t-29.5 -115t-97.5 -36zM586 451h80l39 -164l38 164h82
+q3 -45 13 -297h-60q0 108 -6 213l-41 -168h-55l-41 168h-2q-4 -140 -4 -213h-58q3 156 15 297zM987 150q-60 0 -84 35.5t-24 115.5q0 81 24 117.5t84 36.5t85.5 -37t25.5 -117q0 -79 -25.5 -115t-85.5 -36zM987 403q-29 0 -39 -23.5t-10 -78.5q0 -54 10 -78t39 -24
+q30 0 40.5 24t10.5 78q0 55 -10 78.5t-41 23.5zM967 1016q49 0 79.5 -24.5t39 -51t8.5 -53.5q0 -43 -34.5 -72.5t-72.5 -34.5q-213 -23 -340 -147q3 8 9 22t25 53.5t39 75.5t50 80.5t59.5 76t66 53.5t71.5 22zM285 909q39 0 78 -21t69.5 -55t58.5 -74.5t48 -81.5t35 -75
+t22 -55l8 -21q-117 148 -319 148q-49 0 -88 30t-39 76q0 53 33.5 91t93.5 38zM643 1214q38 -37 48.5 -102t-2.5 -131t-31.5 -126.5t-35.5 -98.5l-18 -39q20 191 -125 330q-35 35 -42 81.5t24 83.5q23 23 53 34t65 3.5t64 -35.5z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="682" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="512" 
+ />
+  </font>
+</defs></svg>

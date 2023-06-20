@@ -1175,6 +1175,21 @@ body .is-layout-flex>* {
 	font-display: swap
 }
 
+@font-face {
+	font-family: 'Cagliari';
+	src: url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.eot');
+	src: url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.eot?#iefix') format('embedded-opentype'),
+		url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.woff2') format('woff2'),
+		url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.woff') format('woff'),
+		url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.ttf') format('truetype'),
+		url('../webfonts/subset-FONTSPRINGDEMO-CagliariExtraBoldRegular.svg#FONTSPRINGDEMO-CagliariExtraBoldRegular') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
 html,
 body {
 	font-family: 'TT-Travels', monospace;
