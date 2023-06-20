@@ -52,7 +52,7 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="mailto:hello@lessGAP.com"
-										className="!my-4 !text-lg border-none font-black uppercase text-white hover:opacity-50 md:text-4xl"
+										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
 									>
 										hello@lessGAP.com
 									</Link>
@@ -63,7 +63,7 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="/"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
+										className="!my-4 !text-lg border-none font-black uppercase text-white hover:opacity-50 md:text-4xl"
 									>
 										English
 									</Link>
