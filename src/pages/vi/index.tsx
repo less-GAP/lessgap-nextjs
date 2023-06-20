@@ -171,7 +171,7 @@ export default function TrainingSupport() {
 													less[GAP]
 												</div>
 												<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“<strong>LessGAP</strong> is a professional agency specializing in creating cross-platform programming, building and launching social media contents, strategizing for brand innovation, and customizing system development, etcetera. With our offices being in both North America and Vietnam, our team of capable experts in the industry are at hand to fully provide solutions for all of your needs.”
+													“<strong>LessGAP</strong> là một công ty chuyên nghiệp về lập trình đa nền tảng, truyền thông xã hội, sáng tạo thuơng hiệu và khai triển hệ thống... Chúng tôi có trụ sở ở cả Hoa Kỳ lẫn Việt Nam. Với đầy đủ nội lực để cung cấp toàn diện cho mọi nhu cầu của quý vị.”
 												</div>
 
 											</div>
@@ -196,16 +196,16 @@ export default function TrainingSupport() {
 													Less the [GAP]
 												</div>
 												<ul className="text-lg my-2 space-y-5 md:text-3xl xl:text-5xl xl:mb-10 tracking-[0.05em]">
-													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-1')}>Experience <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
-													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-2')}>Highly skills <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
+													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-1')}>Kinh nghiệm <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
+													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-2')}>Trình độ <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
 													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-3')}>Win x Win<FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
 												</ul>
 
 												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-1'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
 													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
-														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Our Experience</h4>
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Kinh nghiệm của chúng tôi</h4>
 														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-															With over 20 years of experience in the business of creating and launching anything social media related, such as web, app design and brand building; LessGap team have partnered and successfully assisted many businesses from across the globe to launch and grow their brands in Japan, South Korea, Singapore, Vietnam, and the United States.
+															Hơn 20 năm kinh nghiệm trong việc thiết kế web/app và xây dựng thuơng hiệu cho Nhật, Hàn, Singapore, Việt Nam, Hoa Kỳ... chúng tôi đã tạo ra nhiều sản phẩm trải khắp mọi ngành nghề cũng như am hiểu nhiều nền văn hoá.
 														</div>
 														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
 															<FontAwesomeIcon className="mr-3" icon={faTimes} />
@@ -214,9 +214,9 @@ export default function TrainingSupport() {
 												</Modal>
 												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-2'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
 													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
-														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Our Skills</h4>
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Trình độ của chúng tôi</h4>
 														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-															With our main competitive advantage being the independent agency who owns many valuable customized-systems and a team of highly skilled experts in the industry. The products we create are promised to be powerful and efficient, yet cost-effective.
+															Với thế mạnh trong việc sở hữu nhiều hệ thống giá trị cùng với các chuyên gia trình độ cao, các sản phẩm được tạo ra rất mạnh mẽ và hoàn hảo nhưng chi phí lại rất thấp.
 														</div>
 														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
 															<FontAwesomeIcon className="mr-3" icon={faTimes} />
@@ -225,9 +225,9 @@ export default function TrainingSupport() {
 												</Modal>
 												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-3'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
 													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
-														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Pay for less</h4>
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Trả ít hơn</h4>
 														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-															You will pay less for the value you receive when partnering with LessGap. We'll give a commission to those who helped us get the project from clients, as referral compensation. It is a Win x Win for everyone!
+															Quý vị sẽ phải trả ít đi, nhận nhiều hơn. Chúng tôi sẽ trả hoa hồng cho những người đã giúp chúng tôi nhận được dự án từ khách hàng, như một khoản thù lao giới thiệu. Đó là Win x Win cho tất cả mọi người!
 
 														</div>
 														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
@@ -245,7 +245,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
 												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Less is more
+													Ít hơn là nhiều hơn
 												</div>
 
 											</div>
@@ -256,10 +256,10 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
-													No products
+													Không có sản phẩm
 												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“We do not create products, we create works of art. Let our team of artistic experts create the most fitting and harmonious designs for your brands.”
+													“Chúng tôi không tạo ra sản phẩm, mà chỉ sáng tạo ra những tác phẩm. hãy để những chuyên gia đậm chất nghệ sĩ của chúng tôi tạo ra những trang phục vừa vặn và hài hoà nhất cho quý vị.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
 													- Cuong Tran, Cheif Technology
@@ -273,10 +273,10 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
-													Powerful
+													Sức mạnh
 												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“With the ownership of a distinguished magazine in North America and a team of competent social media operators, we are confident in enhancing the value of your brand.”
+													“Với việc sở hữu tờ tạp chí đặc sắc tại Hoa Kỳ cũng như vận hành một đội ngũ truyền thông xã hội đầy thực lực. Không thể không nói lên sự tự tin của chúng tôi trong việc nâng cao giá trị thuơng hiệu của quý vị.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
 													- Bang Nguyen, Project Manager
@@ -291,7 +291,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
 												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Works and<br />Services
+													Dự án và<br />Dịch vụ
 												</div>
 
 											</div>
@@ -360,7 +360,8 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col w-full gap-10">
-													<p>We have built many customized large-scale systems such as healthcare management systems, inventory management systems, brand management systems, event management systems, automation systems, etcetera. We strive to apply the most advanced and newest technologies to the making of any projects with a precise understanding of what your brand needs.</p>
+													<p>Chúng tôi đã xây dựng nhiều hệ thống lớn như: Hệ thống quản lý y tế, hệ thống quản lý kho hàng, hệ thống quản lý thương hiệu, hệ thống quản lý sự kiện, hệ thống quản lý toàn soạn... Chúng tôi luôn áp dụng những công nghệ tiên tiến, hợp thời đại, và hiểu chính xác những gì quý vị cần.
+													</p>
 													<BlockGallery />
 													{/* <h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110`}>
 														<span>Training</span>
