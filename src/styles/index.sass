@@ -1,0 +1,334 @@
+#madecore
+	padding-top: calc((0.75rem * 2) + 30px)
+	@media (min-width: 768px)
+		padding-top: calc((1.25rem * 2) + 32px)
+	@media (min-width: 1024px)
+		padding-top: calc((2rem * 2) + 32px)
+	// @media (min-width: 1536px)
+	// 	padding-top: calc((2.8rem * 2) + 32px)
+.home
+	background: #000
+	.made-lab-header
+		background: transparent
+		transition: background .5s ease-in-out
+		&.scrolled
+			background-image: linear-gradient(180deg, #000 70%, #00000087 90%, #00000000 100%)
+.home + .made-lab-footer
+	display: none
+
+#home-madelayout
+	width: 100%
+	position: relative
+	img
+		min-width: 100%
+	svg
+		rect, path, *
+			fill: transparent
+			stroke: transparent
+		path:nth-child(1)
+			animation-name: animate_m
+			animation-duration: .5s
+			animation-delay: 2s
+			animation-fill-mode: forwards
+			animation-iteration-count: 1
+	.madeinfo
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		z-index: 1000
+		opacity: 0
+		animation-name: animate_re
+		animation-duration: 1s
+		animation-delay: 4s
+		animation-fill-mode: forwards
+		animation-iteration-count: 1
+		p
+			color: #fff
+			font-weight: 200
+			letter-spacing: 1px
+			text-transform: uppercase
+			text-align: center
+			margin: 0
+			line-height: 1
+			font-size: 1em
+			user-select: none
+		h1
+			color: transparent
+			font-weight: 700
+			font-family: 'Untitled-Sans'
+			text-align: center
+			margin: 0
+			white-space: nowrap
+			font-size: 96px
+			background: linear-gradient(0deg, #5b5b5b 0%, #ffffff 100%)
+			background-size: 100% 100%
+			-webkit-background-clip: text
+			background-clip: text
+			line-height: .8
+			overflow: hidden
+			user-select: none
+		@media screen and (min-width: 768px)
+			h1
+				font-size: 194px
+			p
+				font-size: 1.4em
+				position: absolute
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+				white-space: nowrap
+		@media screen and (min-width: 992px)
+			h1
+				font-size: 230px
+			p
+				font-size: 1.8em
+				letter-spacing: 3px
+		@media screen and (min-width: 1200px)
+			h1
+				font-size: 290px
+			p
+				font-size: 2em
+		@media screen and (min-width: 1400px)
+			h1
+				font-size: 372px
+			p
+				font-size: 2.5em
+				letter-spacing: 4px
+		@media screen and (min-width: 1600px)
+			h1
+				font-size: 386px
+			p
+				font-size: 3em
+		@media screen and (min-width: 1800px)
+			h1
+				font-size: 432px
+			p
+				font-size: 3.5em
+		@media screen and (min-width: 2000px)
+			h1
+				font-size: 468px
+			p
+				font-size: 4em
+		@media screen and (min-width: 2200px)
+			h1
+				font-size: 520px
+			p
+				font-size: 4.5em
+
+#home-list-action
+	color: #fff
+	width: 100%
+	background: #000
+	padding-bottom: 5rem
+	// background: #000 url(../img/bgg.svg) repeat-y top center
+	background-size: contain
+	@media screen and (min-width: 1024px)
+		padding-bottom: 10rem
+		// background: #000 url(../img/bgg.svg) repeat-y top center
+		background-size: cover
+	.item
+		display: flex
+		flex-direction: row
+		transition: ease-in-out all 1s
+		position: relative
+		padding: 3rem 0
+		opacity: 0
+		transform: translateY(100px)
+		&.active
+			opacity: calc(var(--visible-y))
+			transform: translateY(0px)
+		&:first-child
+			padding-top: 0 !important
+		&:after
+			content: ''
+			display: block
+			width: 100%
+			height: 3px
+			margin-top: 2rem
+			color: #fff
+			background: linear-gradient(90deg, #5b5b5b00 0%, #5b5b5b 30%, #fff 50%, #5b5b5b 70%, #ffffff00 100%)
+			background-size: 100% 100%
+			position: absolute
+			bottom: .5rem
+			left: 50%
+			transform: translateX(-50%)
+		.desc
+			padding-left: 1rem
+			display: flex
+			flex-direction: column
+			p
+				margin-top: 2rem
+				color: #777777
+				font-weight: 300
+				margin-bottom: 0
+				font-size: 1.2rem
+			.made-title
+				background: radial-gradient(#eff1ff, #000)
+				background-size: 200% 100%
+				background-position: 50% 50%
+				-webkit-background-clip: text
+				background-clip: text
+				-webkit-text-fill-color: transparent
+				margin: 0
+				padding: 0
+				line-height: 48px
+				font-weight: 600
+				font-size: 1.3rem
+				display: inline-flex
+				align-items: center
+				width: 100%
+				h2
+					background: radial-gradient(#eff1ff, #000)
+					background-size: 200% 100%
+					background-position: 50% 50%
+					-webkit-background-clip: text
+					background-clip: text
+					-webkit-text-fill-color: transparent
+					position: relative
+					margin: 0
+					padding: 0
+					line-height: 48px
+					font-weight: 600
+					font-size: 1.3rem
+					display: inline-flex
+				.num
+					color: #fff
+					-webkit-background-clip: unset
+					background-clip: unset
+					-webkit-text-fill-color: #fff
+					margin-left: 1rem
+					padding-left: 1rem
+					position: relative
+					&:before
+						content: ''
+						display: block
+						width: 2px
+						height: 80%
+						top: 10%
+						left: 0
+						background: #fff
+						background-size: 100% 100%
+						position: absolute
+		.made-icon
+			width: 48px
+			height: 48px
+			min-width: 48px
+			min-height: 48px
+			display: flex
+			justify-content: center
+			align-items: center
+			font-weight: 600
+			font-size: 30px
+			border: 2px solid #dfdfdf
+			color: #000
+			line-height: 1
+			padding-bottom: 5px
+			border-radius: 5px
+			flex-direction: column
+			user-select: none
+			position: relative
+			&:after
+				content: ''
+				display: block
+				width: 26px
+				height: 4px
+				background: #dfdfdf
+		&.style-1
+			.made-icon
+				border: 2px solid #7895A4
+				color: #7895A4
+				&:after
+					background: #7895A4
+			.made-title h2
+				background: radial-gradient(#7895A4, #7895A4)
+				-webkit-background-clip: text
+				background-clip: text
+				-webkit-text-fill-color: transparent
+		&.style-2
+			.made-icon
+				border: 2px solid #C9AC68
+				color: #C9AC68
+				&:after
+					background: #C9AC68
+			.made-title h2
+				background: radial-gradient(#C9AC68, #C9AC68)
+				-webkit-background-clip: text
+				background-clip: text
+				-webkit-text-fill-color: transparent
+		&.style-3
+			.made-icon
+				border: 2px solid #737144
+				color: #737144
+				&:after
+					background: #737144
+			.made-title h2
+				background: radial-gradient(#737144, #737144)
+				-webkit-background-clip: text
+				background-clip: text
+				-webkit-text-fill-color: transparent
+		&.style-4
+			.made-icon
+				border: 2px solid #994C3D
+				color: #994C3D
+				&:after
+					background: #994C3D
+			.made-title h2
+				background: radial-gradient(#994C3D, #994C3D)
+				-webkit-background-clip: text
+				background-clip: text
+				-webkit-text-fill-color: transparent
+	@media screen and (min-width: 768px)
+		.item
+			.desc
+				padding-left: 2rem
+				p
+					margin-top: 3rem
+					padding: 5rem 0
+			&:after
+				bottom: 0rem
+	@media screen and (min-width: 1200px)
+		.item
+			.made-icon
+				width: 58px
+				height: 58px
+				min-width: 58px
+				min-height: 58px
+				font-size: 36px
+				&:after
+					width: 30px
+					height: 5px
+			.desc
+				p
+					margin-top: 3rem
+	@media screen and (min-width: 1600px)
+		.item
+			padding: 6rem 0
+@keyframes animate_re
+	0%
+		opacity: 0
+	100%
+		opacity: 1
+@keyframes animate_m
+	0%
+		opacity: 1
+	100%
+		opacity: 0
+@keyframes madebggradient
+	0%
+		background-position: 0% 50%
+	50%
+		background-position: 100% 50%
+	100%
+		background-position: 0% 50%
+		background: #000
+
+@keyframes animationgradienttitle
+	0%
+		background-position: 0 400%
+	100%
+		background-position: 400% 0
+
+.blog-link
+	span
+		padding: 0 !important

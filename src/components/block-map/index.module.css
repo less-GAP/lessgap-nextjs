@@ -1,0 +1,25 @@
+.index {
+	position: relative;
+}
+.map {
+	min-height: 400px;
+}
+@media (min-width: 992px) {
+	.map {
+		min-height: 600px;
+	}
+}
+@media (min-width: 1280px) {
+	.content {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		max-width: 400px;
+	}
+}
+@media (min-width: 1400px) {
+	.content {
+		max-width: 500px;
+	}
+}

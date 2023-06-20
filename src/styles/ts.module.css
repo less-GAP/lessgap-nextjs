@@ -1,0 +1,22 @@
+.index {
+	position: relative;
+	z-index: 1;
+	min-height: 100vh;
+
+}
+
+/* .index::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url("../img/bgb.svg");
+	filter: grayscale(100%) invert(1);
+	z-index: -1;
+	background-attachment: fixed;
+} */

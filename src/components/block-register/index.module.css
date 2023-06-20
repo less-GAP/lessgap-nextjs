@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .colmd6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .mtmd5{
+        margin-top: 3rem;
+    }
+
+    .mtmd0{
+        margin-top: 0;
+    }
+}

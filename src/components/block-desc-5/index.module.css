@@ -1,0 +1,106 @@
+.index {
+	position: relative;
+	overflow: hidden;
+}
+
+.heading h2{
+	transform: rotate(-5deg)
+}
+@media (min-width: 768px) {
+	.heading h2{
+		transform: rotate(-4deg)
+	}
+}
+@media (min-width: 992px) {
+	.heading h2{
+		transform: rotate(-3deg)
+	}
+}
+@media (min-width: 1200px) {
+	.heading h2{
+		transform: rotate(-2deg)
+	}
+}
+
+.break {
+	position: relative;
+	padding-bottom: 120px;
+	overflow: hidden;
+}
+.break::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FFF;
+	height: 200%;
+	z-index: -1;
+	/* transform: translateX(-50%) */
+}
+.break::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: calc(100% + 200px);
+	background-color: #000;
+	height: 120px;
+	transform: rotate(-5deg) translateX(-50%)
+}
+@media (min-width: 768px) {
+	.break::before {
+		transform: rotate(-4deg) translateX(-50%)
+	}
+}
+@media (min-width: 992px) {
+	.break::before {
+		transform: rotate(-3deg) translateX(-50%)
+	}
+}
+@media (min-width: 1200px) {
+	.break::before {
+		transform: rotate(-2deg) translateX(-50%)
+	}
+}
+.break2 {
+	position: relative;
+	padding-bottom: 120px;
+	overflow: hidden;
+}
+.break2::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	height: 200%;
+	z-index: -1;
+	/* transform: translateX(-50%) */
+}
+.break2::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: calc(100% + 200px);
+	background-color: #000;
+	height: 120px;
+	transform: rotate(5deg) translateX(-50%)
+}
+@media (min-width: 768px) {
+	.break2::before {
+		transform: rotate(4deg) translateX(-50%)
+	}
+}
+@media (min-width: 992px) {
+	.break2::before {
+		transform: rotate(3deg) translateX(-50%)
+	}
+}
+@media (min-width: 1200px) {
+	.break2::before {
+		transform: rotate(2deg) translateX(-50%)
+	}
+}

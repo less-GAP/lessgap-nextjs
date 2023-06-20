@@ -1,0 +1,110 @@
+@tailwind base;
+
+a {
+  @apply text-black;
+}
+
+a:hover {
+  @apply border-b-2;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.loading-screen{
+  position: relative;
+	height: 100vh;
+	width: 100%;
+	opacity: 1;
+	background: black;
+}
+@keyframes fade {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading-screen .loading-ball {
+  display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.loading-screen .loading-ball .ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 0%;
+  background: #ffffff;
+  margin: 0 10px 0 0;
+  animation: oscillate 0.7s ease-in forwards infinite;
+}
+
+.loading-screen .loading-ball .one {
+  animation-delay: 0.15s;
+}
+.loading-screen .loading-ball .two {
+  animation-delay: .5s;
+}
+.loading-screen .loading-ball .three {
+  animation-delay: .25s;
+}
+.loading-screen #madeloading {
+  width: 200px;
+  display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.loading-screen #madeloading rect,
+.loading-screen #madeloading path{ 
+  fill: transparent;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  stroke: #ffffff;
+  stroke-width: 2px;
+}
+.loading-screen #madeloading path{ 
+  animation: strokeAnimation 1.5s linear infinite;
+}
+.loading-screen #madeloading rect{ 
+  animation: strokeAnimation 1.5s linear infinite;
+}
+
+@keyframes strokeAnimation {
+  0% {
+    stroke-dashoffset: 800;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes oscillate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
