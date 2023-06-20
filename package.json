@@ -2,8 +2,8 @@
   "name": "lessGAP",
   "version": "3.6.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev && sh copy.sh",
+    "build": "next build && sh copy.sh",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",

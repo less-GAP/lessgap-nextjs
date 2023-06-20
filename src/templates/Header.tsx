@@ -11,7 +11,6 @@ import Link from "next/link";
 import { CloseOutline, MenuOutline } from "react-ionicons";
 
 import MadeLabHeader from "@/components/MadeLabHeader";
-import Logo from "@/img/logo-made.png";
 import { AppConfig } from "@/utils/AppConfig";
 
 library.add(fab, faFacebookF, faInstagram, faBars, faTimes);
@@ -38,13 +37,6 @@ const MadeHeader = () => (
     <div className="container-fluid mx-auto p-3 md:py-5 lg:py-8 lg:px-10" id="headerblock">
       <div className="flex flex-row items-center">
         <div className="mr-auto flex basis-1/4 flex-row items-center">
-          <Link href="/" className="flex flex-wrap items-center text-white">
-            <img
-              src={Logo.src}
-              alt={AppConfig.title}
-              className="mr-auto h-[30px] 2xl:h-[36px] max-w-[unset] lg:mr-8 xl:mr-15 2xl:mr-18"
-            />
-          </Link>
         </div>
         <div className="hidden basis-1/2 whitespace-nowrap text-center lg:flex lg:justify-center xl:ml-15">
           <ul className="flex-col text-xl lg:flex lg:flex-row">

@@ -4,6 +4,7 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
+import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/made.svg';
 import s1 from '@/public/imgs/madelab/s-1.png';
@@ -32,7 +33,7 @@ export default function TrainingSupport() {
 
 	return (
 		<>
-			<Meta title="Training & Support" description="Finally… hands-on, Training and Support for businesses needing to scale through people and process" />
+			<Meta title="less[GAP] Solutions" description="Finally… hands-on, Training and Support for businesses needing to scale through people and process" />
 			<MainOnly className={styles.index}>
 
 				<div className={`${styles.animation_menutoggle} md:!top-12 md:!left-12 xl:!top-21 xl:!left-21`}>
@@ -156,7 +157,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[5rem]`}>
 
 												<div className="text-4xl sm:text-6xl xl:text-7xl 4xl:text-8xl 5xl:text-9xl 6xl:text-10xl 9xl:text-[10rem] 12xl:text-[11rem] tracking-[0.05em] leading-[1.2]">
-													Hands-on, training and support for businesses looking to improve through knowledge and process.
+													We provide web design and development services for small and medium businesses.
 												</div>
 
 											</div>
@@ -167,13 +168,10 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] 5xl:!w-1/3 !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
 												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
-													Meet<br />Miguel
+													less[GAP]
 												</div>
 												<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“After thirty years of experience in the decorated apparel industry, I wanted to share my experience, empower people, and assist businesses to become more efficient, effective, and sustainable. Building a hands-on training and support program tailored to the specific needs of today's apparel decorator is my contribution to the industry that I love.”
-												</div>
-												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- Miguel Veliz, Director of Training x Support
+													“<strong>LessGAP</strong> is a professional agency specializing in creating cross-platform programming, building and launching social media contents, strategizing for brand innovation, and customizing system development, etcetera. With our offices being in both North America and Vietnam, our team of capable experts in the industry are at hand to fully provide solutions for all of your needs.”
 												</div>
 
 											</div>
@@ -184,7 +182,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
 												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Comprehensive<br />Programs
+													Less is<br />more
 												</div>
 
 											</div>
@@ -194,20 +192,43 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Production Art
+												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] leading-[1.1] mb-5">
+													Less the [GAP]
 												</div>
-												<ul className="text-lg my-2 space-y-3 md:text-3xl xl:text-5xl xl:mb-10">
-													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('agenda-1')}>Workflow <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
-													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('agenda-1')}>Color Separations <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
-													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('agenda-1')}>Outputting <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
+												<ul className="text-lg my-2 space-y-5 md:text-3xl xl:text-5xl xl:mb-10 tracking-[0.05em]">
+													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-1')}>Experience <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
+													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-2')}>Highly skills <FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
+													<li className="items-center flex cursor-pointer" onClick={() => isModalOpen ? setIsModalOpen('') : setIsModalOpen('less-3')}>Win x Win<FontAwesomeIcon className="ml-3 texl-lg md:text-3xl" icon={faArrowRightLong} /></li>
 												</ul>
 
-												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'agenda-1'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
+												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-1'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
 													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
-														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Workflow</h4>
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Our Experience</h4>
 														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-															“After thirty years of experience in the decorated apparel industry, I wanted to share my experience, empower people, and assist businesses to become more efficient, effective, and sustainable. Building a hands-on training and support program tailored to the specific needs of today's apparel decorator is my contribution to the industry that I love.”
+															With over 20 years of experience in the business of creating and launching anything social media related, such as web, app design and brand building; LessGap team have partnered and successfully assisted many businesses from across the globe to launch and grow their brands in Japan, South Korea, Singapore, Vietnam, and the United States.
+														</div>
+														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
+															<FontAwesomeIcon className="mr-3" icon={faTimes} />
+														</button>
+													</div>
+												</Modal>
+												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-2'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
+													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Our Skills</h4>
+														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
+															With our main competitive advantage being the independent agency who owns many valuable customized-systems and a team of highly skilled experts in the industry. The products we create are promised to be powerful and efficient, yet cost-effective.
+														</div>
+														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
+															<FontAwesomeIcon className="mr-3" icon={faTimes} />
+														</button>
+													</div>
+												</Modal>
+												<Modal title={false} wrapClassName="modal-fullwidth" open={isModalOpen === 'less-3'} onCancel={() => setIsModalOpen('')} footer={null} centered keyboard={false} width={`100%`} maskClosable={false} closeIcon={null}>
+													<div className="p-3 md:p-10 lg:p-20 xl:p-25 max-w-[1000px] mx-auto text-white">
+														<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Pay for less</h4>
+														<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
+															You will pay less for the value you receive when partnering with LessGap. We'll give a commission to those who helped us get the project from clients, as referral compensation. It is a Win x Win for everyone!
+
 														</div>
 														<button onClick={() => setIsModalOpen('')} className="mt-10 text-3xl">
 															<FontAwesomeIcon className="mr-3" icon={faTimes} />
@@ -218,63 +239,13 @@ export default function TrainingSupport() {
 											</div>
 										</div>
 									</div>
-									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_5}`}>
-										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Ink Room
-												</div>
-												<ul className="text-lg my-2 space-y-3 md:text-3xl xl:text-5xl xl:mb-10">
-													<li>Mixing</li>
-													<li>Bases</li>
-													<li>Additives</li>
-													<li>Special FX</li>
-												</ul>
-
-											</div>
-										</div>
-									</div>
-									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_6}`}>
-										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
-
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Screen Making
-												</div>
-												<ul className="text-lg my-2 space-y-3 md:text-3xl xl:text-5xl xl:mb-10">
-													<li>Coating</li>
-													<li>Imaging</li>
-													<li>Developing</li>
-													<li>Reclaim</li>
-												</ul>
-
-											</div>
-										</div>
-									</div>
-									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_7}`}>
-										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
-
-												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Print Production
-												</div>
-												<ul className="text-lg my-2 space-y-3 md:text-3xl xl:text-5xl xl:mb-10">
-													<li>Staging</li>
-													<li>Press Setup</li>
-													<li>Press Operation</li>
-													<li>Press Tear-Down</li>
-												</ul>
-
-											</div>
-										</div>
-									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_8}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
 												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Empowered<br />teams
+													Less is more
 												</div>
 
 											</div>
@@ -282,13 +253,16 @@ export default function TrainingSupport() {
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_9}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[30%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
+												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
+													No products
+												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“The experience at MADE taught me how screen printing is an art that requires patience, practice, and persistence. With each step of the process, you gain a deeper understanding and appreciation for the craft. Very grateful for everyone involved!”
+													“We do not create products, we create works of art. Let our team of artistic experts create the most fitting and harmonious designs for your brands.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- John Roberson III, Production Assistant
+													- Cuong Tran, Cheif Technology
 												</div>
 
 											</div>
@@ -296,38 +270,28 @@ export default function TrainingSupport() {
 									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_10}`}>
 										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[30%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[40%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
+												<div className="text-6xl md:text-7xl 4xl:text-8xl 6xl:text-10xl 9xl:text-12xl capitalize leading-1">
+													Powerful
+												</div>
 												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“As a customer success lead, this experience gave me insight into how better to explain processes and market products to my clients. I highly recommend this course for anyone in the industry, regardless of position!”
+													“With the ownership of a distinguished magazine in North America and a team of competent social media operators, we are confident in enhancing the value of your brand.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- Hailey Green, Customer Success Lead
+													- Bang Nguyen, Project Manager
 												</div>
 
 											</div>
 										</div>
 									</div>
-									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_11}`}>
-										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
-											<div className={`${styles.animation_carousel_item_text_cnt} lg:!w-1/2 3xl:!w-[30%] !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
 
-												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
-													“Training at MADE opened my eyes to the intricate processes of screen printing. Truly, anyone remotely involved in the apparel decoration business would benefit from this course. 100% recommend!”
-												</div>
-												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- Jack Wilson, Client Relations Manager
-												</div>
-
-											</div>
-										</div>
-									</div>
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} !my-[2rem] sm:!my-[5rem] lg:!my-[3rem] !overflow-hidden`}>
 
 												<div className="text-5xl sm:text-7xl lg:text-9xl 2xl:text-11xl 6xl:text-[12rem] 9xl:text-[15rem] 13xl:text-[17rem] capitalize leading-[1.1]">
-													Training<br />Session Options
+													Works and<br />Services
 												</div>
 
 											</div>
@@ -336,36 +300,11 @@ export default function TrainingSupport() {
 									<div className={`${styles.animation_carousel_item} w-full`}>
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
-												<div className="flex flex-col xl:flex-row w-full gap-10 9xl:items-center">
+												<div className="flex flex-col xl:flex-row w-full gap-10 items-center">
 													<div className="basic w-full xl:w-[40%] 5xl:w-[30%]">
-														<div className="text-xl 7xl:text-2xl 8xl:text-3xl mb-4 capitalize leading-[1.1]">3-Day Training Session</div>
-														<ul className="hidden ml-10 text-sm 2xl:texr-basic 8xl:text-lg font-normal capitalize mt-5 tracking-[0.05em] leading-normal space-y-1 mb-10">
-															<li>Pre-Flight <span className="text-xs font-light">(includes discovery call and session plan) </span></li>
-															<li>Training Kit <span className="text-xs font-light">(includes recommended products and test screens) </span></li>
-															<li>Three days of on-site training <span className="text-xs font-light">(8 hrs per day)</span></li>
-															<li>Post Visit Report</li>
-															<li>3-Months Support <span className="text-xs font-light">(phone, email, chat)</span></li>
-															<li>Investment: $5,250 <span className="text-xs font-light">(includes travel and expenses)</span></li>
-														</ul>
-
-														<div className="text-xl 7xl:text-2xl 8xl:text-3xl mb-4 capitalize leading-[1.1]">5-Day Training Session</div>
-														<ul className="hidden ml-10 text-sm 2xl:texr-basic 8xl:text-lg font-normal capitalize mt-5 tracking-[0.05em] leading-normal space-y-1 mb-10">
-															<li>Pre-Flight <span className="text-xs font-light">(includes discovery call and session plan) </span></li>
-															<li>Training Kit <span className="text-xs font-light">(includes recommended products and test screens) </span></li>
-															<li>Five days of on-site training <span className="text-xs font-light">(8 hrs per day) </span></li>
-															<li>Post Visit Report</li>
-															<li>3-Months Support <span className="text-xs font-light">(phone, email, chat)</span></li>
-															<li>Investment: $7,500 <span className="text-xs font-light">(includes travel and expenses)</span></li>
-														</ul>
-
-														<div className="text-xl 7xl:text-2xl 8xl:text-3xl mb-4 capitalize leading-[1.1]">Custom Sessions</div>
-														<ul className="hidden ml-10 text-sm 2xl:texr-basic 8xl:text-lg font-normal capitalize mt-5 tracking-[0.05em] leading-normal space-y-1">
-															<li>Advanced Training for Established Decorators </li>
-															<li>Extended Training for Large Teams</li>
-															<li>In-house Training at less[GAP] Solutions </li>
-															<li>Project Consulting</li>
-															<li>Investment: TBD Based on Scope of Work</li>
-														</ul>
+														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">3-Day Training Session</div>
+														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">5-Day Training Session</div>
+														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">Custom Sessions</div>
 													</div>
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
 														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
@@ -396,7 +335,7 @@ export default function TrainingSupport() {
 									<div className={`${styles.animation_carousel_item} w-full`}>
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
-												<div className="flex flex-col xl:flex-row w-full gap-10">
+												<div className="flex flex-col xl:flex-row w-full gap-10 items-center">
 													<div className="basic w-full xl:w-[50%]">
 
 														<div className="mb-10 lg:mb-25">
@@ -421,11 +360,12 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col w-full gap-10">
-													<h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110`}>
+													<BlockGallery />
+													{/* <h2 className={`mx-auto my-3 text-3xl sm:text-5xl md:text-7xl lg:text-9xl xl:text-11xl font-normal max-w-[1000px] leading-none text-center flex flex-row items-center justify-center 2xl:scale-110`}>
 														<span>Training</span>
 														<span className="text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-light px-2 lg:px-3 xl:px-5"> x </span>
 														<span>Support</span>
-													</h2>
+													</h2> */}
 												</div>
 											</div>
 										</div>
