@@ -944,7 +944,7 @@ body .is-layout-flex > * {
 }
 .madePrevNextBtn .slick-arrow {
   position: fixed;
-  bottom: 0;
+  top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
   width: 4rem;
@@ -963,7 +963,7 @@ body .is-layout-flex > * {
   fill: #fff;
 }
 .madePrevNextBtn .slick-arrow.slick-prev {
-  right: 0;
+  left: 0;
   z-index: -1000;
   opacity: 0;
   transform: translateY(-50%) translateX(-100%);
