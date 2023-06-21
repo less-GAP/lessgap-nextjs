@@ -4,7 +4,7 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
-// import BlockGallery from "@/components/block-gallery";
+import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
@@ -326,7 +326,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col w-full gap-10">
 													<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">We have built many customized large-scale systems such as healthcare management systems, inventory management systems, brand management systems, event management systems, automation systems, etcetera. We strive to apply the most advanced and newest technologies to the making of any projects with a precise understanding of what your brand needs.</div>
-													{/* <BlockGallery /> */}
+													<BlockGallery />
 												</div>
 											</div>
 										</div>

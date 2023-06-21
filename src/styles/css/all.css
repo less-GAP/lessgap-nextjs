@@ -943,12 +943,11 @@ body .is-layout-flex > * {
   }
 }
 .madePrevNextBtn .slick-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  position: fixed;
+  bottom: 0;
   background-color: transparent;
   width: 4rem;
-  height: 8rem;
+  height: 4rem;
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -963,24 +962,19 @@ body .is-layout-flex > * {
   fill: #fff;
 }
 .madePrevNextBtn .slick-arrow.slick-prev {
-  left: 0;
+  right: 0;
   z-index: -1000;
   opacity: 0;
-  transform: translateY(-50%) translateX(-100%);
 }
 .madePrevNextBtn .slick-arrow.slick-next {
   z-index: -1000;
   opacity: 0;
   right: 0;
-  transform: translateY(-50%) translateX(100%);
 }
 @media (min-width: 1024px) {
   .madePrevNextBtn:hover .slick-arrow {
     z-index: 1000;
     opacity: 1;
-  }
-  .madePrevNextBtn:hover .slick-arrow.slick-prev, .madePrevNextBtn:hover .slick-arrow.slick-next {
-    transform: translateY(-50%) translateX(0%);
   }
 }
 

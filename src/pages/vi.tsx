@@ -4,7 +4,7 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
-// import BlockGallery from "@/components/block-gallery";
+import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
@@ -338,7 +338,7 @@ export default function TrainingSupport() {
 													<div className="fff text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
 														Chúng tôi đã xây dựng nhiều hệ thống lớn như: Hệ thống quản lý y tế, hệ thống quản lý kho hàng, hệ thống quản lý thương hiệu, hệ thống quản lý sự kiện, hệ thống quản lý toàn soạn... Chúng tôi luôn áp dụng những công nghệ tiên tiến, hợp thời đại, và hiểu chính xác những gì quý vị cần.
 													</div>
-													{/* <BlockGallery /> */}
+													<BlockGallery />
 
 												</div>
 											</div>

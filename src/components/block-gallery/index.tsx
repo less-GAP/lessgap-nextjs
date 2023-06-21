@@ -11,18 +11,18 @@ import 'lightgallery/css/lg-video.css';
 import 'lightgallery/css/lg-rotate.css';
 
 
-import img1_thumb from "@/public/imgs/waterbasecamp/thumb/1.jpg";
-import img2_thumb from "@/public/imgs/waterbasecamp/thumb/2.jpg";
-import img3_thumb from "@/public/imgs/waterbasecamp/thumb/3.jpg";
-import img4_thumb from "@/public/imgs/waterbasecamp/thumb/4.jpg";
-import img6_thumb from "@/public/imgs/waterbasecamp/thumb/6.jpg";
-import img8_thumb from "@/public/imgs/waterbasecamp/thumb/8.jpg";
-import img9_thumb from "@/public/imgs/waterbasecamp/thumb/9.jpg";
-import img10_thumb from "@/public/imgs/waterbasecamp/thumb/10.jpg";
-import img11_thumb from "@/public/imgs/waterbasecamp/thumb/11.jpg";
-import img12_thumb from "@/public/imgs/waterbasecamp/thumb/12.jpg";
-import img13_thumb from "@/public/imgs/waterbasecamp/thumb/13.jpg";
-import img15_thumb from "@/public/imgs/waterbasecamp/thumb/15.jpg";
+import img1_thumb from "@/public/imgs/project/1.png";
+import img2_thumb from "@/public/imgs/project/2.png";
+import img3_thumb from "@/public/imgs/project/3.png";
+import img4_thumb from "@/public/imgs/project/4.jpg";
+import img5_thumb from "@/public/imgs/project/5.png";
+import img6_thumb from "@/public/imgs/project/6.png";
+import img7_thumb from "@/public/imgs/project/7.png";
+import img8_thumb from "@/public/imgs/project/8.jpg";
+import img9_thumb from "@/public/imgs/project/9.png";
+import img10_thumb from "@/public/imgs/project/10.png";
+import img11_thumb from "@/public/imgs/project/11.png";
+import img12_thumb from "@/public/imgs/project/12.jpg";
 
 import styles from './index.module.css';
 
@@ -45,78 +45,85 @@ export default function BlockGallery() {
 							rotate: false,
 						}}
 					>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/1.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/1.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img1_thumb.src})` }}></div>
 							<Image alt="" src={img1_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/2.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/2.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img2_thumb.src})` }}></div>
 							<Image alt="" src={img2_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/3.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/3.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img3_thumb.src})` }}></div>
 							<Image alt="" src={img3_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/4.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/4.jpg" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img4_thumb.src})` }}></div>
 							<Image alt="" src={img4_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/13.jpg" >
-							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img13_thumb.src})` }}></div>
-							<Image alt="" src={img13_thumb} />
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/5.png" >
+							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img5_thumb.src})` }}></div>
+							<Image alt="" src={img5_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/6.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/6.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img6_thumb.src})` }}></div>
 							<Image alt="" src={img6_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/15.jpg" >
-							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img15_thumb.src})` }}></div>
-							<Image alt="" src={img15_thumb} />
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/7.png" >
+							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img7_thumb.src})` }}></div>
+							<Image alt="" src={img7_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/8.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/8.jpg" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img8_thumb.src})` }}></div>
 							<Image alt="" src={img8_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/9.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/9.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img9_thumb.src})` }}></div>
 							<Image alt="" src={img9_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/10.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/10.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img10_thumb.src})` }}></div>
 							<Image alt="" src={img10_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/11.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/11.png" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img11_thumb.src})` }}></div>
 							<Image alt="" src={img11_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/12.jpg" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/12.jpg" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img12_thumb.src})` }}></div>
 							<Image alt="" src={img12_thumb} />
 							<span>+23</span>
 						</a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/5.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/14.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/7.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/16.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/17.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/18.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/19.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/20.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/21.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/22.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/23.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/24.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/25.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/26.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/27.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/28.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/29.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/30.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/31.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/32.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/33.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/34.jpg"></a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/waterbasecamp/35.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/13.jpeg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/14.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/15.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/16.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/17.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/18.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/19.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/20.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/21.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/22.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/23.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/24.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/25.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/26.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/27.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/28.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/29.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/30.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/31.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/32.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/33.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/34.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/35.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/36.jpg"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/37.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/38.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/39.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/40.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/41.png"></a>
+						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/42.png"></a>
 
 					</LightGallery>
 				</div>
