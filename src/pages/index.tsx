@@ -4,19 +4,17 @@ import { Carousel, Modal } from 'antd';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeftLong, faArrowRightLong, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
-import BlockGallery from "@/components/block-gallery";
+// import BlockGallery from "@/components/block-gallery";
 
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
 import qrcode from '@/img/qrcode.svg';
-import s1 from '@/public/imgs/madelab/s-1.png';
-import s2 from '@/public/imgs/madelab/s-2.png';
-import s3 from '@/public/imgs/madelab/s-3.png';
-import s4 from '@/public/imgs/madelab/s-4.png';
-import s5 from '@/public/imgs/madelab/s-5.png';
+// import s1 from '@/public/imgs/madelab/s-1.png';
+// import s2 from '@/public/imgs/madelab/s-2.png';
+// import s3 from '@/public/imgs/madelab/s-3.png';
+// import s4 from '@/public/imgs/madelab/s-4.png';
+// import s5 from '@/public/imgs/madelab/s-5.png';
 import s6 from '@/public/imgs/madelab/s-6.png';
-import s7 from '@/public/imgs/madelab/s-7.png';
-import roq from '@/public/imgs/madelab/roq.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
@@ -35,7 +33,10 @@ export default function TrainingSupport() {
 
 	return (
 		<>
-			<Meta title="less[GAP] Solutions" description="lessGAP is a professional web/app design and marketing/brands company based in the United States. We provide web design and development services for small and medium businesses." />
+			<Meta
+				title="less[GAP] Solutions"
+				image="https://lessgap.com/imgs/banner.png"
+				description="lessGAP is a professional web/app design and marketing/brands company based in the United States. We provide web design and development services for small and medium businesses." />
 			<MainOnly className={styles.index}>
 
 				<div className={`${styles.animation_menutoggle} md:!top-12 md:!left-12 xl:!top-21 xl:!left-21`}>
@@ -52,7 +53,7 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="mailto:hello@lessGAP.com"
-										className="border-none text-2xl font-black uppercase text-white hover:opacity-50 md:text-4xl"
+										className="border-none text-2xl font-black text-white hover:opacity-50 md:text-4xl"
 									>
 										hello@lessGAP.com
 									</Link>
@@ -63,7 +64,7 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="/vi"
-										className="!my-4 !text-lg border-none font-black uppercase text-white hover:opacity-50 md:text-4xl"
+										className="!my-4 !text-lg border-none font-black text-white hover:opacity-50 md:text-4xl"
 									>
 										Tiếng Việt
 									</Link>
@@ -268,20 +269,20 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col xl:flex-row w-full gap-10 items-center">
-													<div className="basic w-full xl:w-[40%] 5xl:w-[30%]">
+													<div className="basic w-full xl:w-[40%] 5xl:w-[30%] space-y-5 lg:space-y-10">
 														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">
 															Website Development
 														</div>
 														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">
-															5-Day Training Session
+															Soical Media Management
 														</div>
 														<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">
-															Custom Sessions
+															Brand Identity
 														</div>
 													</div>
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
 														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
-															<div className="col-span-1 5xl:col-span-1">
+															{/* <div className="col-span-1 5xl:col-span-1">
 																<Image src={s1} alt="less[GAP]" className="w-full" />
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
@@ -295,7 +296,7 @@ export default function TrainingSupport() {
 															</div>
 															<div className="col-span-1 5xl:col-span-1">
 																<Image src={s5} alt="less[GAP]" className="w-full" />
-															</div>
+															</div> */}
 															<div className="col-span-1 5xl:col-span-1">
 																<Image src={s6} alt="less[GAP]" className="w-full" />
 															</div>
@@ -309,19 +310,10 @@ export default function TrainingSupport() {
 										<div className={`${styles.animation_carousel_item_text} w-full`}>
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col xl:flex-row w-full gap-10 items-center">
-													<div className="basic w-full xl:w-[50%]">
-
-														<div className="mb-10 lg:mb-25">
-															<Image src={roq} alt="less[GAP]" className="w-full max-w-[300px]" />
-														</div>
-														<ul className="text-2xl my-2 space-y-3 md:text-3xl xl:mb-10 leading-normal max-w-[600px]">
-															<li>Our trainers are ROQ certified for competency on operation, installations, maintenance, and repairs.</li>
-														</ul>
-													</div>
-													<div className="basic w-full xl:w-[50%]">
+													<div className="basic w-full xl:w-[50%] mx-auto">
 														<div className="w-full !gap-3 grid grid-cols-1">
 															<div className="col-span-1">
-																<Image src={s7} alt="less[GAP]" className="w-full" />
+																<Image src={logo2} alt="less[GAP]" className="w-full" />
 															</div>
 														</div>
 													</div>
@@ -334,7 +326,7 @@ export default function TrainingSupport() {
 											<div className={`${styles.animation_carousel_item_text_cnt} w-full !my-[5rem]`}>
 												<div className="flex flex-col w-full gap-10">
 													<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">We have built many customized large-scale systems such as healthcare management systems, inventory management systems, brand management systems, event management systems, automation systems, etcetera. We strive to apply the most advanced and newest technologies to the making of any projects with a precise understanding of what your brand needs.</div>
-													<BlockGallery />
+													{/* <BlockGallery /> */}
 												</div>
 											</div>
 										</div>
