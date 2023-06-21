@@ -1084,7 +1084,7 @@ body .is-layout-flex>* {
 	.slick-arrow {
 		position: fixed;
 		bottom: 0%;
-		// transform: translateY(-50%);
+		transform: translateY(100%);
 		background-color: transparent;
 		width: 3rem;
 		height: 3rem;
@@ -1159,6 +1159,7 @@ body .is-layout-flex>* {
 			.slick-arrow {
 				z-index: 1000;
 				opacity: 1;
+				transform: translateY(0%);
 
 				&.slick-prev,
 				&.slick-next {
