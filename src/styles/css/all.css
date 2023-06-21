@@ -944,8 +944,8 @@ body .is-layout-flex > * {
 }
 .madePrevNextBtn .slick-arrow {
   position: fixed;
-  bottom: 0%;
-  transform: translateY(100%);
+  bottom: 0;
+  z-index: 900000;
   background-color: transparent;
   width: 3rem;
   height: 3rem;
@@ -963,12 +963,12 @@ body .is-layout-flex > * {
   fill: #fff;
 }
 .madePrevNextBtn .slick-arrow.slick-prev {
-  right: 3rem;
+  right: 4rem;
   position: fixed;
-  bottom: 0;
+  bottom: 4rem;
   top: unset;
   left: unset;
-  z-index: 1000;
+  z-index: 900000;
   background-color: #000;
 }
 .madePrevNextBtn .slick-arrow.slick-prev:hover {
@@ -981,11 +981,11 @@ body .is-layout-flex > * {
   fill: #000;
 }
 .madePrevNextBtn .slick-arrow.slick-next {
-  right: 0;
+  right: 1rem;
   position: fixed;
-  bottom: 0;
+  bottom: 4rem;
   top: unset;
-  z-index: 1000;
+  z-index: 900000;
   background-color: #000;
 }
 .madePrevNextBtn .slick-arrow.slick-next:hover {
@@ -997,7 +997,24 @@ body .is-layout-flex > * {
 .madePrevNextBtn .slick-arrow.slick-next:hover svg * {
   fill: #000;
 }
+@media (min-width: 768px) {
+  .madePrevNextBtn .slick-arrow {
+    z-index: 1000;
+    opacity: 1;
+  }
+  .madePrevNextBtn .slick-arrow.slick-prev {
+    right: 3rem;
+    bottom: 0rem;
+  }
+  .madePrevNextBtn .slick-arrow.slick-next {
+    right: 0;
+    bottom: 0rem;
+  }
+}
 @media (min-width: 1024px) {
+  .madePrevNextBtn .slick-arrow {
+    transform: translateY(100%);
+  }
   .madePrevNextBtn:hover .slick-arrow {
     z-index: 1000;
     opacity: 1;
