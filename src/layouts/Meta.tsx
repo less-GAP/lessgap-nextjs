@@ -48,7 +48,8 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon/favicon.ico`}
           key="favicon"
         />
-      </Head>
+        <meta property="og:image" content="https://lessgap.com/imgs/banner.png">
+        </meta> </Head>
       <Script src="https://connect.facebook.net/en_US/sdk.js"></Script>
       <NextSeo
         title={`${props.title} | ${AppConfig.title}`}
