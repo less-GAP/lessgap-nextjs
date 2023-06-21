@@ -129,7 +129,7 @@ export default function TrainingSupport() {
 									muted
 									autoplay
 									playsinline
-									src="/data/video2.mp4"
+									src="/data/video3.mp4"
 									class="w-full h-full object-cover"
 								/>
 							` }} />
