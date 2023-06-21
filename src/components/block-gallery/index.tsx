@@ -21,7 +21,7 @@ import img7_thumb from "@/public/imgs/project/27.png";
 import img8_thumb from "@/public/imgs/project/23.png";
 import img9_thumb from "@/public/imgs/project/6.png";
 import img10_thumb from "@/public/imgs/project/24.jpg";
-import img11_thumb from "@/public/imgs/project/10.png";
+import img11_thumb from "@/public/imgs/project/13.jpeg";
 import img12_thumb from "@/public/imgs/project/26.png";
 
 import styles from './index.module.css';
@@ -85,7 +85,7 @@ export default function BlockGallery() {
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img10_thumb.src})` }}></div>
 							<Image alt="" src={img10_thumb} />
 						</a>
-						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/10.png" >
+						<a className={`${styles.item} group relative lazy`} data-lg-size="3840-2160" data-src="/imgs/project/13.jpeg" >
 							<div className="mask absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 h-full w-full bg-no-repeat bg-center bg-cover transition-all duration-300 ease-in-out group-hover:scale-110" style={{ backgroundImage: `url(${img11_thumb.src})` }}></div>
 							<Image alt="" src={img11_thumb} />
 						</a>
@@ -94,7 +94,7 @@ export default function BlockGallery() {
 							<Image alt="" src={img12_thumb} />
 							<span>+23</span>
 						</a>
-						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/13.jpeg"></a>
+						{/* <a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/10.png"></a> */}
 						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/14.png"></a>
 						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/15.jpg"></a>
 						<a className={`${styles.item} group relative lazy hidden`} data-lg-size="3840-2160" data-src="/imgs/project/16.jpg"></a>
