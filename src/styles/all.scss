@@ -1083,19 +1083,19 @@ body .is-layout-flex>* {
 .madePrevNextBtn {
 	.slick-arrow {
 		position: fixed;
-		top: 50%;
-		transform: translateY(-50%);
+		bottom: 0%;
+		// transform: translateY(-50%);
 		background-color: transparent;
-		width: 4rem;
-		height: 4rem;
+		width: 3rem;
+		height: 3rem;
 		display: flex !important;
 		justify-content: center;
 		align-items: center;
 		transition: all 0.3s ease-in-out;
 
 		svg {
-			width: 2rem;
-			height: 2rem;
+			width: 1.2rem;
+			height: 1.2rem;
 			fill: #fff;
 
 			* {
@@ -1104,17 +1104,53 @@ body .is-layout-flex>* {
 		}
 
 		&.slick-prev {
-			left: 0;
-			z-index: -1000;
-			opacity: 0;
-			transform: translateY(-50%) translateX(-100%);
+			right: 3rem;
+			// z-index: -1000;
+			// opacity: 0;
+			// transform: translateY(-50%) translateX(-100%);
+			position: fixed;
+			bottom: 0;
+			top: unset;
+			left: unset;
+			z-index: 1000;
+			background-color: #000;
+
+			&:hover {
+				background-color: rgba(255, 255, 255, 1);
+
+				svg {
+					fill: #000;
+
+					* {
+						fill: #000;
+					}
+				}
+			}
 		}
 
 		&.slick-next {
-			z-index: -1000;
-			opacity: 0;
+			// z-index: -1000;
+			// opacity: 0;
 			right: 0;
-			transform: translateY(-50%) translateX(100%);
+			// transform: translateY(-50%) translateX(100%);
+			position: fixed;
+			bottom: 0;
+			top: unset;
+			z-index: 1000;
+			background-color: #000;
+
+			&:hover {
+				background-color: rgba(255, 255, 255, 1);
+
+				svg {
+					fill: #000;
+
+					* {
+						fill: #000;
+					}
+				}
+			}
+
 		}
 	}
 
@@ -1126,7 +1162,7 @@ body .is-layout-flex>* {
 
 				&.slick-prev,
 				&.slick-next {
-					transform: translateY(-50%) translateX(0%);
+					// transform: translateY(-50%) translateX(0%);
 				}
 			}
 		}
