@@ -9,12 +9,6 @@ import BlockGallery from "@/components/block-gallery";
 import logo from '@/img/logo.png';
 import logo2 from '@/img/logow.png';
 import qrcode from '@/img/qrcode.svg';
-// import s1 from '@/public/imgs/madelab/s-1.png';
-// import s2 from '@/public/imgs/madelab/s-2.png';
-// import s3 from '@/public/imgs/madelab/s-3.png';
-// import s4 from '@/public/imgs/madelab/s-4.png';
-// import s5 from '@/public/imgs/madelab/s-5.png';
-// import s6 from '@/public/imgs/madelab/s-6.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
