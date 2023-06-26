@@ -61,14 +61,14 @@ export default function TrainingSupport() {
 								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Image src={qrcode} alt="less[GAP]" className="w-full max-w-[250px]" />
 								</li>
-								<li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
+								{/* <li className="md:mx-4 mx-5 xl:mx-6 2xl:mx-7 flex items-center">
 									<Link
 										href="/vi"
 										className="!my-4 !text-lg border-none font-black text-white hover:opacity-50 md:text-4xl"
 									>
 										Tiếng Việt
 									</Link>
-								</li>
+								</li> */}
 
 							</ul>
 						</div>
