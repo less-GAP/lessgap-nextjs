@@ -14,7 +14,7 @@ import qrcode from '@/img/qrcode.svg';
 // import s3 from '@/public/imgs/madelab/s-3.png';
 // import s4 from '@/public/imgs/madelab/s-4.png';
 // import s5 from '@/public/imgs/madelab/s-5.png';
-import s6 from '@/public/imgs/madelab/s-6.png';
+// import s6 from '@/public/imgs/madelab/s-6.png';
 
 import styles from '@/styles/training.module.css';
 import Link from "next/link";
@@ -282,6 +282,20 @@ export default function TrainingSupport() {
 													</div>
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
 														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
+
+																less[GAP] Solutions [USA]
+																Address: 4905 S Hulen Street Fort Worth, TX 76132
+																Phone: +1 (817) 564-5168
+
+															</div>
+															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
+
+																less[GAP] Solutions [VN]
+																Address: 123 HiTech Town, District 1, Ho Chi Minh City
+																Phone: +84 (28) 7108 8888
+
+															</div>
 															{/* <div className="col-span-1 5xl:col-span-1">
 																<Image src={s1} alt="less[GAP]" className="w-full" />
 															</div>
@@ -297,9 +311,9 @@ export default function TrainingSupport() {
 															<div className="col-span-1 5xl:col-span-1">
 																<Image src={s5} alt="less[GAP]" className="w-full" />
 															</div> */}
-															<div className="col-span-1 5xl:col-span-1">
+															{/* <div className="col-span-1 5xl:col-span-1">
 																<Image src={s6} alt="less[GAP]" className="w-full" />
-															</div>
+															</div> */}
 														</div>
 													</div>
 												</div>
