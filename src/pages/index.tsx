@@ -282,6 +282,7 @@ export default function TrainingSupport() {
 													</div>
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
 														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+															<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Contact Us</h4>
 															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
 																<p className="pt-1"><strong>less[GAP] Solutions [USA]</strong></p>
 																<p className="pt-1">Address: 4905 S Hulen Street Fort Worth, TX 76132</p>
