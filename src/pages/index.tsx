@@ -291,12 +291,12 @@ export default function TrainingSupport() {
 															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
 																<p className="pt-1"><strong>less[GAP] Solutions [SaiGon-VN]</strong></p>
 																<p className="pt-1">Address: 123 HiTech Town, District 1, Ho Chi Minh City</p>
-																<p className="pt-1">Phone: +84 (033) 112 999</p>
+																<p className="pt-1">Phone: +84 (944) 199 547</p>
 															</div>
 															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
 																<p className="pt-1"><strong>less[GAP] Solutions [DaNang-VN]</strong></p>
 																<p className="pt-1">Address: Comming Soon</p>
-																<p className="pt-1">Phone: +84 (033) 112 999</p>
+																<p className="pt-1">Phone: +84 (944) 199 547</p>
 															</div>
 														</div>
 													</div>
