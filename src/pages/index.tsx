@@ -253,6 +253,23 @@ export default function TrainingSupport() {
 											</div>
 										</div>
 									</div>
+									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_10}`}>
+										<div className={`${styles.animation_carousel_item_text} xl:mb-[7rem]`}>
+											<div className={`${styles.animation_carousel_item_text_cnt} !my-[3rem] md:!my-[5rem] lg:!my-[7rem]`}>
+
+												<div className="text-5xl md:text-6xl 4xl:text-7xl 6xl:text-9xl 9xl:text-11xl capitalize leading-1">
+													Friendly Company
+												</div>
+												<div className="text-xl 2xl:text-2xl 5xl:text-4xl 6xl:text-4xl 9xl:text-5xl capitalize mt-10 tracking-[0.05em] leading-normal">
+													“We are always ready to listen to your needs and provide the best solutions for your business.”
+												</div>
+												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
+													- Linh Truong, Cheif Executive Officer
+												</div>
+
+											</div>
+										</div>
+									</div>
 
 									<div className={`${styles.animation_carousel_item} ${styles.animation_carousel_item_slider_12}`}>
 										<div className={`${styles.animation_carousel_item_text} !justify-end lg:mb-[5rem] xl:mb-[7rem]`}>
