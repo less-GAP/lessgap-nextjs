@@ -292,22 +292,22 @@ export default function TrainingSupport() {
 														</div>
 													</div>
 													<div className="basic w-full xl:w-[60%] 5xl:w-[70%]">
-														<div className="w-full !gap-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
-															<h4 className="text-xl md:text-3xl mt-5 font-extrabold uppercase">Contact Us</h4>
-															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-																<p className="pt-1"><strong>less[GAP] Solutions [USA]</strong></p>
-																<p className="pt-1">Address: 4905 S Hulen Street Fort Worth, TX 76132</p>
-																<p className="pt-1">Phone: +1 (817) 564-5168</p>
+														<div className="w-full !gap-3 grid grid-cols-1">
+															<div className="text-2xl xl:text-3xl 8xl:text-5xl mb-4 capitalize leading-[1.1]">Contact Us</div>
+															<div className="text-xl capitalize mt-10 tracking-[0.05em] leading-normal">
+																<p className="pt-1 text-2xl"><strong>less[GAP] Solutions [USA]</strong></p>
+																<p className="pt-1 text-sm">Address: 4905 S Hulen Street Fort Worth, TX 76132</p>
+																<p className="pt-1 text-sm">Phone: +1 (817) 564-5168</p>
 															</div>
-															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-																<p className="pt-1"><strong>less[GAP] Solutions [SaiGon-VN]</strong></p>
-																<p className="pt-1">Address: 123 HiTech Town, District 1, Ho Chi Minh City</p>
-																<p className="pt-1">Phone: +84 (944) 199 547</p>
+															<div className="text-xl capitalize mt-10 tracking-[0.05em] leading-normal">
+																<p className="pt-1 text-2xl"><strong>less[GAP] Solutions [SaiGon-VN]</strong></p>
+																<p className="pt-1 text-sm">Address: Lầu 5, 15 Trần Khắc Chân, P.Tân Định, Q1, TP.Sài Gòn</p>
+																<p className="pt-1 text-sm">Phone: +84 (944) 199 547</p>
 															</div>
-															<div className="text-xl 2xl:text-2xl 6xl:text-4xl 9xl:text-4xl capitalize mt-10 tracking-[0.05em] leading-normal">
-																<p className="pt-1"><strong>less[GAP] Solutions [DaNang-VN]</strong></p>
-																<p className="pt-1">Address: Comming Soon</p>
-																<p className="pt-1">Phone: +84 (944) 199 547</p>
+															<div className="text-xl capitalize mt-10 tracking-[0.05em] leading-normal">
+																<p className="pt-1 text-2xl"><strong>less[GAP] Solutions [DaNang-VN]</strong></p>
+																<p className="pt-1 text-sm">Address: Comming Soon</p>
+																<p className="pt-1 text-sm">Phone: +84 (944) 199 547</p>
 															</div>
 														</div>
 													</div>
