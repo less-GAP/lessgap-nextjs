@@ -302,12 +302,12 @@ export default function TrainingSupport() {
 															<div className="text-xl capitalize mt-10 tracking-[0.05em] leading-normal">
 																<p className="pt-1 text-2xl"><strong>less[GAP] Solutions [SaiGon-VN]</strong></p>
 																<p className="pt-1 text-sm">Address: Lầu 5, 15 Trần Khắc Chân, P.Tân Định, Q1, TP.Sài Gòn</p>
-																<p className="pt-1 text-sm">Phone: +84 (944) 199 547</p>
+																<p className="pt-1 text-sm">Phone: +84 (972) 970 770</p>
 															</div>
 															<div className="text-xl capitalize mt-10 tracking-[0.05em] leading-normal">
 																<p className="pt-1 text-2xl"><strong>less[GAP] Solutions [DaNang-VN]</strong></p>
 																<p className="pt-1 text-sm">Address: Comming Soon</p>
-																<p className="pt-1 text-sm">Phone: +84 (944) 199 547</p>
+																<p className="pt-1 text-sm">Phone: +84 (972) 970 770</p>
 															</div>
 														</div>
 													</div>
