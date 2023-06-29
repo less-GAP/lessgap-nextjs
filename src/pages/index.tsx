@@ -224,7 +224,7 @@ export default function TrainingSupport() {
 													“We do not create products, we create works of art. Let our team of artistic experts create the most fitting and harmonious designs for your brands.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- Cuong Tran, Cheif Technology
+													- Cuong Tran, Chief Technology
 												</div>
 
 											</div>
@@ -258,7 +258,7 @@ export default function TrainingSupport() {
 													“We are always ready to listen to your needs and provide the best solutions for your business.”
 												</div>
 												<div className="text-lg 2xl:text-xl font-normal capitalize mt-5 tracking-[0.05em] leading-normal">
-													- Linh Truong, Cheif Executive Officer
+													- Linh Truong, Chief Accountant
 												</div>
 
 											</div>
